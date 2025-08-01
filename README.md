@@ -7,13 +7,13 @@ Babama doğum gününde, sıradan bir 'doğum günün kutlu olsun' mesajının y
 Bu sayfayı yayınlamaya karar verdim ki, siz de hayatınızdaki özel insanları, gerçekten oldukları gibi biraz daha özel hissettirebilin.
 Kendiniz için doğum günü sayfasını birkaç kolay adımla oluşturabilirsiniz:
 * Projeyi (repository) forklayın
-* `customize.json` dosyasını açın ve içeriği kendi metinlerinizle değiştirin
+* `public/customize.json` dosyasını açın ve içeriği kendi metinlerinizle değiştirin
 * Proje ayarlarından GitHub Pages'i aktif edin (Ayarlar > Pages)
 * Oluşan URL'yi bu değerli kişi ile paylaşın
 
 **Sayfanın çalışması için bu ana projeye (main repository) Pull Request göndermeniz gerekmez.**
 
-Kolay ve hızlı özelleştirme için `customize.json` dosyasını oluşturdum. Bu dosya sitede kullanılan tüm metinleri ve görselleri kodu değiştirmeden değiştirmenize imkan sağlıyor. Ancak daha fazla özelleştirme yapmak isterseniz JSON dosyasındaki alanları boş bırakıp doğrudan HTML dosyasını düzenleyebilirsiniz. Çünkü JSON dosyasındaki içerik HTML dosyasındaki içeriğin üzerine yazılıyor.
+Kolay ve hızlı özelleştirme için `public/customize.json` dosyasını oluşturdum. Bu dosya sitede kullanılan tüm metinleri ve görselleri kodu değiştirmeden değiştirmenize imkan sağlıyor. Ancak daha fazla özelleştirme yapmak isterseniz JSON dosyasındaki alanları boş bırakıp doğrudan HTML dosyasını düzenleyebilirsiniz. Çünkü JSON dosyasındaki içerik HTML dosyasındaki içeriğin üzerine yazılıyor.
 
 Sayfayı aceleyle hazırladığımı ve garanti vermediğimi lütfen unutmayın.
 
