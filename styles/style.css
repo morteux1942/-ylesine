@@ -328,6 +328,7 @@ body {
     width: 60px;
     top: -160px;
     left: 52%;
+    margin-left: 15px;
     transform: translateX(-50%);
     z-index: -1;
   }
