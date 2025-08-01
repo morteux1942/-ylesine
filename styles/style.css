@@ -151,7 +151,7 @@ body {
   position: absolute;
   width: 80px;
   top: -245px;
-  margin-left: -10px;
+  margin-left: -25px;
   transform: translateX(-50%);
   z-index: -1;
 }
@@ -317,7 +317,7 @@ body {
   }
 
   .idea-6 span[data-node-name="bigTextPart1"] {
-    margin-top: -20vh;
+    margin-top: -22vh;
   }
 
   .six img {
