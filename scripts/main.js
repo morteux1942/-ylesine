@@ -10,29 +10,22 @@ const fetchData = () => {
             document
               .querySelector(`[data-node-name*='${customData}']`)
               .setAttribute('src', data[customData]);
+
+            const favicon = document.querySelector('link[rel="shortcut icon"]');
+            if (favicon) favicon.setAttribute('href', data[customData]);
           } else if (customData === 'pageTitle') {
             document.querySelector(`[data-node-name*='${customData}']`).textContent = data[customData];
           } else {
             document.querySelector(`[data-node-name*='${customData}']`).textContent = data[customData];
-          }
-        }
+          };
+        };
 
         // Check if the iteration is over
         // Run amimation if so
         if (dataArr.length === dataArr.indexOf(customData) + 1) {
-          // Hemen animasyonu başlat, bekleme olmasın
-          setTimeout(() => {
-            animationTimeline();
-          }, 100);
-        }
+          animationTimeline();
+        };
       });
-    })
-    .catch(error => {
-      console.error('Error loading data:', error);
-      // Hata durumunda da animasyonu başlat
-      setTimeout(() => {
-        animationTimeline();
-      }, 100);
     });
 };
 
