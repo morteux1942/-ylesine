@@ -151,7 +151,7 @@ body {
   position: absolute;
   width: 80px;
   top: -245px;
-  margin-left: -5px;
+  margin-left: -10px;
   transform: translateX(-50%);
   z-index: -1;
 }
@@ -317,7 +317,7 @@ body {
   }
 
   .idea-6 span[data-node-name="bigTextPart1"] {
-    margin-top: -15vh;
+    margin-top: -20vh;
   }
 
   .six img {
@@ -326,7 +326,7 @@ body {
 
   .six .hat {
     width: 60px;
-    top: -183.5px;
+    top: -160px;
     left: 52%;
     transform: translateX(-50%);
     z-index: -1;
