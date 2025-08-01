@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "dependencies": {
+    "@vercel/edge": "^0.1.2"
+  },
+  "homepage": "https://github.com/MZRCode/babamin-dogum-gunu#readme",
+  "bugs": {
+    "url": "https://github.com/MZRCode/babamin-dogum-gunu/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MZRCode/babamin-dogum-gunu.git"
+  }
+}
